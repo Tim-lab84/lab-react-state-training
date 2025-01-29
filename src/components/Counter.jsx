@@ -8,7 +8,8 @@ const Counter = () => {
     }
 
     const handleDecrement = () => {
-        setCounter(counter - 1 )
+        if (counter > 0){setCounter(counter - 1 )}
+        
 
     }
 

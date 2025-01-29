@@ -17,6 +17,7 @@ const ClickablePicture = () =>{
 <img src = {image ? max1 : max2}
 alt ="max"
 onClick={handleToggle}
+style={{ cursor: "pointer", width: "300px", height: "300px" }}
 />
 
 </div>
