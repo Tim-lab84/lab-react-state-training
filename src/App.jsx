@@ -9,10 +9,12 @@ function App() {
     <div className="App">
       <h1> LAB | React Training</h1>
       <h1> Like Button Lab</h1>
-      <LikeButton></LikeButton>
+      <LikeButton></LikeButton> 
       <Counter></Counter>
       <ClickablePicture></ClickablePicture>
       <Dice></Dice>
+      
+
     </div>
   );
 }
